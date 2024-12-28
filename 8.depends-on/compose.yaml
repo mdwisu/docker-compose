@@ -4,6 +4,7 @@ services:
   mongodb-example:
     image: mongo:latest
     container_name: mongodb-example
+    restart: always
     ports:
       - "27017:27017"
     environment:
