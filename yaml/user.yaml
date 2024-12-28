@@ -1,0 +1,17 @@
+firstName: muhammad
+MiddleName: dwi
+lastName: susanto
+hobbies:
+  - coding
+  - playing
+  - sleeping
+address:
+  street: jalan jendral sudirman
+  city: surabaya
+  province: jawa timur
+  country: indonesia
+wallet:
+  - type: gopay
+    balance: 1000000
+  - type: dana
+    balance: 2000000
