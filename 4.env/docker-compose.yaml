@@ -1,0 +1,13 @@
+services:
+  mongo-example:
+    image: mongo:latest
+    container_name: mongo-example
+    ports:
+      - "27018:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=dwi
+      - MONGO_INITDB_ROOT_PASSWORD=dwi
+      - MONGO_INITDB_DATABASE=admin
+# script
+# docker compose create
+# docker compose start
